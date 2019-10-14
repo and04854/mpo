@@ -1,0 +1,114 @@
+/* CSS document */
+.bookshape {
+	width: 400px;
+	height: 600px;
+	border: 1px solid black;
+	background-color: beige;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}
+.atokyo {
+	font-family: Century Gothic Pro;
+font-size: 2em;
+letter-spacing: .1em;
+	position: absolute;
+	left: 46%;
+	top: 15%;
+}
+.romance {
+	font-family: Century Gothic Pro;
+font-size: 2em;
+letter-spacing: .1em;
+	position: absolute;
+	left: 38%;
+	top: 48%;
+}
+.ianburuma {
+	font-family: Century Gothic Pro;
+font-size: 2em;
+letter-spacing: .1em;
+	position: absolute;
+	left: 46%;
+	top: 78%;
+}
+
+.rc {
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	left: 40%;
+	top: 27%;
+	transform: translate(-50%,-50%);
+	animation-name: spin;
+    animation-duration: 400ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear
+}
+
+	@keyframes spin {
+	0% {transform: rotate(0deg);}
+	100% {transform: rotate(360deg);}
+}
+.gc {
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	left: 50%;
+	top: 32.8%;
+	transform: rotate(180deg);
+	animation-name: spin;
+    animation-duration: 300ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear
+}
+
+	@keyframes spin {
+	0% {transform: rotate(360deg);}
+	100% {transform: rotate(0deg);}
+}
+.gc2 {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	left: 37%;
+	top: 65%;
+	transform: translate(-50%,-50%);
+		animation-name: spin;
+    animation-duration: 2000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear
+}
+
+	@keyframes spin {
+	0% {transform: rotate(0deg);}
+	100% {transform: rotate(360deg);}
+
+}
+.rc2 {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	left: 50%;
+	top: 74%;
+	transform: rotate(180deg);
+		transform: translate(-50%,-50%);
+}
+.gc3 {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	left: 55.9%;
+	top: 65%;
+	transform: translate(-50%,-50%);
+		animation-name: spin;
+    animation-duration: 2000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear
+}
+
+	@keyframes spin {
+	0% {transform: rotate(0deg);}
+	100% {transform: rotate(360deg);}
+}
